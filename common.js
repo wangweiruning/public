@@ -106,3 +106,7 @@ function getStyle(obj,attr){
 function (id){
     return document.getElementById(id);
 }
+//2017.04.26 BY_LH
+function (a,b){
+    return a+b;
+}
