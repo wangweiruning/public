@@ -102,3 +102,7 @@ function getStyle(obj,attr){
 		return window.getComputedStyle(obj,null)[attr];
 	}
 }//over
+//2017.04.26 BY_LH
+function (id){
+    return document.getElementById(id);
+}
